@@ -7,6 +7,7 @@ espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.11.0"
 activityCompose = "1.13.0"
 kotlin = "2.2.10"
+composeMultiplatform = "1.7.3"
 composeBom = "2026.02.01"
 kotlinStdlib = "2.2.10"
 kotlinTest = "2.2.10"
@@ -39,4 +40,4 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
 android-lint = { id = "com.android.lint", version.ref = "agp" }
-
+compose-multiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }

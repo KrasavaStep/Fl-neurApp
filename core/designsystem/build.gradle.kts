@@ -5,7 +5,7 @@ plugins {
 
 kotlin {
     android {
-        namespace = "com.example.designsystem"
+        namespace = "com.pandastudio.designsystem"
         compileSdk {
             version = release(37)
         }

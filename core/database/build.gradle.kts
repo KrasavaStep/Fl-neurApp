@@ -6,7 +6,7 @@ plugins {
 kotlin {
 
     android {
-        namespace = "com.example.database"
+        namespace = "com.pandastudio.database"
         compileSdk {
             version = release(37)
         }

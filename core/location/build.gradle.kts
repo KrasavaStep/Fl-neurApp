@@ -6,7 +6,7 @@ plugins {
 kotlin {
 
     android {
-        namespace = "com.example.location"
+        namespace = "com.pandastudio.location"
         compileSdk {
             version = release(37)
         }

@@ -5,7 +5,7 @@ plugins {
 
 kotlin {
     android {
-        namespace = "com.example.network"
+        namespace = "com.pandastudio.network"
         compileSdk {
             version = release(37)
         }

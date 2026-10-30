@@ -7,7 +7,7 @@ plugins {
 kotlin {
 
     android {
-        namespace = "com.example.maps"
+        namespace = "com.pandastudio.maps"
         compileSdk {
             version = release(37)
         }
