@@ -22,5 +22,17 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FlaneurApp"
-include(":app")
+rootProject.name = "flaneur-app"
+
+include(
+    ":core:model",
+    ":core:network",
+    ":core:database",
+    ":core:location",
+    ":core:designsystem",
+    ":core:maps",
+    ":feature:generator",
+    ":feature:tracking",
+    ":feature:history",
+    ":composeApp"
+)
