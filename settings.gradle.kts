@@ -24,3 +24,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "FlaneurApp"
 include(":app")
+
+include(":core:model")
+include(":core:network")
+include(":core:database")
+include(":core:location")
+include(":core:designsystem")
+include(":core:maps")

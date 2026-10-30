@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.flaneurapp"
+    namespace = "com.pandastudio.flaneurapp"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.flaneurapp"
+        applicationId = "com.pandastudio.flaneurapp"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
